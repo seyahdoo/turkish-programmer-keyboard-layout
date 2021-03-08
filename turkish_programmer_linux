@@ -7,59 +7,61 @@ default  partial
 xkb_symbols "basic" {
 
     include "latin"
-
+    include "level3(ralt_switch)"
+    
     name[Group1] = "Turkish Programmer";
-
-    key <TLDE>	{ [asciitilde, asciitilde,     VoidSymbol,    VoidSymbol ] };
-    key <AE01>  { [         1,     exclam,     VoidSymbol,    VoidSymbol ] };
-    key <AE02>  { [         2,         at,     VoidSymbol,    VoidSymbol ] };
-    key <AE03>  { [         3, numbersign,     VoidSymbol,    VoidSymbol ] };
-    key <AE04>  { [         4,asciicircum,     VoidSymbol,    VoidSymbol ] };
-    key <AE05>	{ [         5, apostrophe,     VoidSymbol,    VoidSymbol ] };
-    key <AE06>  { [         6, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AE07>  { [         7,    onehalf,     VoidSymbol,    VoidSymbol ] };
-    key <AE08>  { [         8,  backslash,     VoidSymbol,    VoidSymbol ] };
-    key <AE09>  { [         9,    percent,     VoidSymbol,    VoidSymbol ] };
-    key <AE10>  { [         0, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AE11>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AE12>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
     
-    key <AD01>	{ [         q,          Q,     VoidSymbol,    VoidSymbol ] };
-    key <AD02>  { [         w,          W,     VoidSymbol,    VoidSymbol ] };
-    key <AD03>  { [         e,          E,     VoidSymbol,    VoidSymbol ] };
-    key <AD05>  { [         t,          T,     VoidSymbol,    VoidSymbol ] };
-    key <AD07>  { [         u,          U,     VoidSymbol,    VoidSymbol ] };
-    key <AD08>  { [         i,          I,     VoidSymbol,    VoidSymbol ] };
-    key <AD09>  { [         o,          O,     VoidSymbol,    VoidSymbol ] };
-    key <AD10>  { [         p,          P,     VoidSymbol,    VoidSymbol ] };
-    key <AD11>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AD12>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-
-    key <AC01>  { [         a,          A,     VoidSymbol,    VoidSymbol ] };
-    key <AC02>  { [         s,          S,     VoidSymbol,    VoidSymbol ] };
-    key <AC03>  { [         d,          D,     VoidSymbol,    VoidSymbol ] };
-    key <AC04>  { [         f,          F,     VoidSymbol,    VoidSymbol ] };
-    key <AC05>  { [         g,          G,     VoidSymbol,    VoidSymbol ] };
-    key <AC06>  { [         h,          H,     VoidSymbol,    VoidSymbol ] };
-    key <AC07>	{ [         j,          J,     VoidSymbol,    VoidSymbol ] };
-    key <AC08>  { [         k,          K,     VoidSymbol,    VoidSymbol ] };
-    key <AC09>  { [         l,          L,     VoidSymbol,    VoidSymbol ] };
-    key <AC10>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AC11>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <TLDE>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <TLDE>	{ [   quotedbl,     asciitilde,     VoidSymbol,    VoidSymbol ] };
+    key <AE01>  { [          1,         exclam,     VoidSymbol,    VoidSymbol ] };
+    key <AE02>  { [          2,             at,     VoidSymbol,    VoidSymbol ] };
+    key <AE03>  { [          3,     numbersign,     VoidSymbol,    VoidSymbol ] };
+    key <AE04>  { [          4,    asciicircum,     VoidSymbol,    VoidSymbol ] };
+    key <AE05>	{ [          5,     apostrophe,     VoidSymbol,    VoidSymbol ] };
+    key <AE06>  { [          6,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AE07>  { [          7,        onehalf,     VoidSymbol,    VoidSymbol ] };
+    key <AE08>  { [          8,      backslash,     VoidSymbol,    VoidSymbol ] };
+    key <AE09>  { [          9,        percent,     VoidSymbol,    VoidSymbol ] };
+    key <AE10>  { [          0,      ampersand,     VoidSymbol,    VoidSymbol ] };
+    key <AE11>  { [      equal,       question,     VoidSymbol,    VoidSymbol ] };
+    key <AE12>  { [      minus,           plus,     VoidSymbol,    VoidSymbol ] };
+     
+    key <AD01>	{ [          q,              Q,     VoidSymbol,    VoidSymbol ] };
+    key <AD02>  { [          w,              W,     VoidSymbol,    VoidSymbol ] };
+    key <AD03>  { [          e,              E,       EuroSign,    VoidSymbol ] };
+    key <AD04>	{ [          r,              R,     VoidSymbol,    VoidSymbol ] };
+    key <AD05>  { [          t,              T,          U20BA,    VoidSymbol ] };
+    key <AD07>  { [          u,              U,     VoidSymbol,    VoidSymbol ] };
+    key <AD08>  { [          i,              I,     VoidSymbol,    VoidSymbol ] };
+    key <AD09>  { [          o,              O,     VoidSymbol,    VoidSymbol ] };
+    key <AD10>  { [          p,              P,     VoidSymbol,    VoidSymbol ] };
+    key <AD11>  { [bracketleft,   bracketright,     VoidSymbol,    VoidSymbol ] };
+    key <AD12>  { [  braceleft,     braceright,     VoidSymbol,    VoidSymbol ] };
     
-    key <BKSL>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <LSGT>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AB01>	{ [         z,          Z,     VoidSymbol,    VoidSymbol ] };
-    key <AB02>	{ [         x,          X,     VoidSymbol,    VoidSymbol ] };
-    key <AB03>	{ [         c,          C,     VoidSymbol,    VoidSymbol ] };
-    key <AB04>	{ [         v,          V,     VoidSymbol,    VoidSymbol ] };
-    key <AB05>	{ [         b,          B,     VoidSymbol,    VoidSymbol ] };
-    key <AB06>	{ [         n,          N,     VoidSymbol,    VoidSymbol ] };
-    key <AB07>	{ [         m,          M,     VoidSymbol,    VoidSymbol ] };
-    key <AB08>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AB09>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AB10>  { [VoidSymbol, VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-
+    key <AC01>  { [          a,              A,     VoidSymbol,    VoidSymbol ] };
+    key <AC02>  { [          s,              S,     VoidSymbol,    VoidSymbol ] };
+    key <AC03>  { [          d,              D,     VoidSymbol,    VoidSymbol ] };
+    key <AC04>  { [          f,              F,     VoidSymbol,    VoidSymbol ] };
+    key <AC05>  { [          g,              G,     VoidSymbol,    VoidSymbol ] };
+    key <AC06>  { [          h,              H,     VoidSymbol,    VoidSymbol ] };
+    key <AC07>	{ [          j,              J,     VoidSymbol,    VoidSymbol ] };
+    key <AC08>  { [          k,              K,     VoidSymbol,    VoidSymbol ] };
+    key <AC09>  { [          l,              L,     VoidSymbol,    VoidSymbol ] };
+    key <AC10>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AC11>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <TLDE>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+     
+    key <BKSL>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <LSGT>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AB01>	{ [          z,              Z,     VoidSymbol,    VoidSymbol ] };
+    key <AB02>	{ [          x,              X,     VoidSymbol,    VoidSymbol ] };
+    key <AB03>	{ [          c,              C,     VoidSymbol,    VoidSymbol ] };
+    key <AB04>	{ [          v,              V,     VoidSymbol,    VoidSymbol ] };
+    key <AB05>	{ [          b,              B,     VoidSymbol,    VoidSymbol ] };
+    key <AB06>	{ [          n,              N,     VoidSymbol,    VoidSymbol ] };
+    key <AB07>	{ [          m,              M,     VoidSymbol,    VoidSymbol ] };
+    key <AB08>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AB09>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AB10>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    
 };
 
