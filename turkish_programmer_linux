@@ -33,7 +33,7 @@ xkb_symbols "basic" {
     key <AD07>  { [          u,              U,          U00FC,         U00DC ] };
     key <AD08>  { [          i,              I,       idotless,     Iabovedot ] };
     key <AD09>  { [          o,              O,          U00F6,         U00D6 ] };
-    key <AD10>  { [          p,              P,     VoidSymbol,    VoidSymbol ] };
+    key <AD10>  { [          p,              P,          U00A3,    VoidSymbol ] };
     key <AD11>  { [bracketleft,   bracketright,     VoidSymbol,    VoidSymbol ] };
     key <AD12>  { [  braceleft,     braceright,     VoidSymbol,    VoidSymbol ] };
     
@@ -46,12 +46,11 @@ xkb_symbols "basic" {
     key <AC07>	{ [          j,              J,     VoidSymbol,    VoidSymbol ] };
     key <AC08>  { [          k,              K,     VoidSymbol,    VoidSymbol ] };
     key <AC09>  { [          l,              L,     VoidSymbol,    VoidSymbol ] };
-    key <AC10>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AC11>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <TLDE>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-     
-    key <BKSL>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <LSGT>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AC10>  { [  semicolon,          colon,     VoidSymbol,    VoidSymbol ] };
+    key <AC11>  { [  parenleft,     parenright,     VoidSymbol,    VoidSymbol ] };
+    key <BKSL>  { [      comma,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    
+    key <LSGT>  { [       less,        greater,            bar,    VoidSymbol ] };
     key <AB01>	{ [          z,              Z,     VoidSymbol,    VoidSymbol ] };
     key <AB02>	{ [          x,              X,     VoidSymbol,    VoidSymbol ] };
     key <AB03>	{ [          c,              C,          U00E7,         U00C7 ] };
@@ -59,9 +58,9 @@ xkb_symbols "basic" {
     key <AB05>	{ [          b,              B,     VoidSymbol,    VoidSymbol ] };
     key <AB06>	{ [          n,              N,     VoidSymbol,    VoidSymbol ] };
     key <AB07>	{ [          m,              M,     VoidSymbol,    VoidSymbol ] };
-    key <AB08>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AB09>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
-    key <AB10>  { [ VoidSymbol,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AB08>  { [ underscore,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AB09>  { [     period,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AB10>  { [      slash,       asterisk,     VoidSymbol,    VoidSymbol ] };
     
 };
 
