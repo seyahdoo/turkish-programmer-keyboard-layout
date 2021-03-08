@@ -31,8 +31,7 @@ xkb_symbols "basic" {
     key <AD04>	{ [          r,              R,     VoidSymbol,    VoidSymbol ] };
     key <AD05>  { [          t,              T,          U20BA,    VoidSymbol ] };
     key <AD07>  { [          u,              U,          U00FC,         U00DC ] };
-    key <AD08>  { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC",
-                  [          i,              I,       idotless,     Iabovedot ] };
+    key <AD08>  { [          i,              I,       idotless,     Iabovedot ] };
     key <AD09>  { [          o,              O,          U00F6,         U00D6 ] };
     key <AD10>  { [          p,              P,     VoidSymbol,    VoidSymbol ] };
     key <AD11>  { [bracketleft,   bracketright,     VoidSymbol,    VoidSymbol ] };
@@ -40,7 +39,7 @@ xkb_symbols "basic" {
     
     key <AC01>  { [          a,              A,          U00E6,         U00C6 ] };
     key <AC02>  { [          s,              S,          U015F,         U015E ] };
-    key <AC03>  { [          d,              D,     VoidSymbol,    VoidSymbol ] };
+    key <AC03>  { [          d,              D,          U0024,    VoidSymbol ] };
     key <AC04>  { [          f,              F,     VoidSymbol,    VoidSymbol ] };
     key <AC05>  { [          g,              G,          U011F,         U011E ] };
     key <AC06>  { [          h,              H,     VoidSymbol,    VoidSymbol ] };
