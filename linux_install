@@ -1,0 +1,25 @@
+ 
+sudo nano /usr/share/X11/xkb/rules/evdev.xml
+
+
+on the layout list root add this
+<xkbConfigRegistry version="1.1">
+    <layoutList>
+        ....
+        <layout>
+            <configItem>
+            <name>turkish_programmer_linux</name>
+            <!-- Keyboard indicator for Turkish layouts -->
+            <shortDescription>tr_prog</shortDescription>
+            <description>Turkish Programmer</description>
+            <languageList>
+                <iso639Id>tur</iso639Id>
+            </languageList>
+            </configItem>
+        </layout>
+        ...
+    </layoutList>  
+</xkbConfigRegistry>
+
+ 
+sudo cp turkish_programmer_linux /usr/share/X11/xkb/symbols/turkish_programmer_linux
