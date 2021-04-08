@@ -46,9 +46,9 @@ xkb_symbols "basic" {
     key <AC07>	{ [          j,              J,     VoidSymbol,    VoidSymbol ] };
     key <AC08>  { [          k,              K,     VoidSymbol,    VoidSymbol ] };
     key <AC09>  { [          l,              L,     VoidSymbol,    VoidSymbol ] };
-    key <AC10>  { [ underscore,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AC10>  { [  semicolon,          colon,     VoidSymbol,    VoidSymbol ] };
     key <AC11>  { [  parenleft,     parenright,     VoidSymbol,    VoidSymbol ] };
-    key <BKSL>  { [      comma,      semicolon,     VoidSymbol,    VoidSymbol ] };
+    key <BKSL>  { [      comma,          colon,     VoidSymbol,    VoidSymbol ] };
     
     key <LSGT>  { [       less,        greater,            bar,    VoidSymbol ] };
     key <AB01>	{ [          z,              Z,     VoidSymbol,    VoidSymbol ] };
@@ -58,7 +58,7 @@ xkb_symbols "basic" {
     key <AB05>	{ [          b,              B,     VoidSymbol,    VoidSymbol ] };
     key <AB06>	{ [          n,              N,     VoidSymbol,    VoidSymbol ] };
     key <AB07>	{ [          m,              M,     VoidSymbol,    VoidSymbol ] };
-    key <AB08>  { [      colon,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
+    key <AB08>  { [ underscore,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
     key <AB09>  { [     period,     VoidSymbol,     VoidSymbol,    VoidSymbol ] };
     key <AB10>  { [      slash,       asterisk,     VoidSymbol,    VoidSymbol ] };
     
